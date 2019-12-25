@@ -1,0 +1,8 @@
+<div class="main">
+    <div class="title">{{article.title}}</div>
+    <div clas="author">浏览789</div>
+    <div>
+        <p v-html="article.content"></p>
+    </div>
+    <a class="showmain" [routerLink]="['/article', article.id]">| 查看文章 |</a>
+</div>

@@ -1,0 +1,12 @@
+<div class="main">
+    <div class="left">
+        <div class="title">{{article.title}}</div>
+        <a [routerLink]="['/article/edit',id]">编辑</a>
+        <div clas="author">前端·456,123·浏览789</div>
+        <div>
+            <p [innerHTML]="article.content"></p>
+        </div>
+    </div>
+    <div class="right">
+    </div>
+</div>

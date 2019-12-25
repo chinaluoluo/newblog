@@ -1,0 +1,4 @@
+<div class="main">
+    <div class="articletitle">近期文章</div>
+    <a *ngFor="let item of recentArticles" [routerLink]="['/article', item.id]">{{item.title}}</a>
+</div>

@@ -1,0 +1,16 @@
+.main {
+    text-align: left;
+    margin: 0;
+    display: block !important;
+}
+
+.articletitle {
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+a {
+    margin: 5px 0;
+    padding: 0;
+    display: block;
+}

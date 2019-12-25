@@ -1,0 +1,27 @@
+.main {
+    margin: 0;
+    padding: 10px 70px 0 70px;
+    display: block;
+}
+
+.title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-size: 10px;
+    color: gainsboro;
+}
+
+p {
+    text-align: left;
+}
+
+.showmain {
+    font-weight: 1000;
+}
+
+a {
+    display: block;
+}

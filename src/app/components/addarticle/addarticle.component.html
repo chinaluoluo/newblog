@@ -1,0 +1,15 @@
+<div class="tinput">
+    <mat-form-field class="example-full-width">
+        <input matInput placeholder="标题" [(ngModel)]="article.title">
+    </mat-form-field>
+</div>
+<div class="tinput">
+    <mat-form-field class="example-full-width">
+        <input matInput placeholder="标签" [(ngModel)]="article.target">
+    </mat-form-field>
+</div>
+<umeditor [(ngModel)]="article.content" [config]="'../../assets/umeditor/utf8-jsp/umeditor.config.js'" [path]="'../../assets/umeditor/utf8-jsp/'" [loadingTip]="'加载中……'" onDestroy="donothing()">
+</umeditor>
+<div class="butt">
+    <button mat-raised-button color="primary" (click)="createarticle()">提交</button>
+</div>

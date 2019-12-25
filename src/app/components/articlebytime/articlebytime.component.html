@@ -1,0 +1,4 @@
+<div class="main">
+    <div class="articletitle">文章归档</div>
+    <a *ngFor="let item of bytimeArticles" [routerLink]="['/bytime', item.data]">{{item.data}} ({{item.articleNum}})</a>
+</div>
